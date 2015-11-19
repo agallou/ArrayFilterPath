@@ -1,10 +1,10 @@
 array-filter-path
 =================
 
-Exemple
+Example
 -------
 
-Take for example this array.
+Take for example this array :
 
 ```php
 $baseArray = array(
@@ -38,7 +38,7 @@ $filters = array(
 $filteredArray = $filter->($baseArray, $filters);
 ```
 
-We will get an array like this, with only the actors first name and the label :
+We will get an array like this, with only the actors last name and the label :
 
 ```php
 array(
