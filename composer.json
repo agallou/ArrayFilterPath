@@ -1,0 +1,21 @@
+{
+    "name": "agallou/array-filter-path",
+    "description": "Recursively filter an array uning some json-y syntax",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrien Gallou",
+            "email": "adriengallou@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require-dev": {
+        "atoum/atoum": "2.3.0",
+        "m6web/coke": "1.0.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
