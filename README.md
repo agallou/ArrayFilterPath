@@ -35,7 +35,7 @@ $filters = array(
   'actors[].last_name',
   'label',
 );
-$filteredArray = $filter->($baseArray, $filters);
+$filteredArray = $filter->filter($baseArray, $filters);
 ```
 
 We will get an array like this, with only the actors last name and the label :
